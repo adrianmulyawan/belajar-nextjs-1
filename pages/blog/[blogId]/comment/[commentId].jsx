@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 const CommentId = () => {
   const params = useRouter();
   const { blogId, commentId } = params.query;
+  console.info(blogId, commentId, '=> data parameter');
 
   return (
     <>
