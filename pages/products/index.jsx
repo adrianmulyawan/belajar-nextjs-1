@@ -1,4 +1,5 @@
 import axios from "axios";
+import Link from "next/link";
 
 // > Method ini berjalan disisi client
 const Product = ({ products }) => {
@@ -9,9 +10,11 @@ const Product = ({ products }) => {
         products.map((product) => {
           return (
             <ul key={ product.id }>
-              <li>
-                { product.nameProduct } - { product.priceProduct } - { product.categoryProduct }
-              </li>
+              <Link href={`/products/${product.id}`}>
+                <li>
+                  { product.nameProduct } - { product.priceProduct } - { product.categoryProduct }
+                </li>
+              </Link>
             </ul>
           )
         })
