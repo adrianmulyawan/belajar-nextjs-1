@@ -1,4 +1,5 @@
-import React from 'react';
+// > Contoh Nested Route
+// => Untuk mengaksesnya localhost:3000/blog/category
 
 const Category = () => {
   return (
