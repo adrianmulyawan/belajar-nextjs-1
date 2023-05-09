@@ -50,7 +50,7 @@ export const getStaticPaths = async () => {
   // return path
   return {
     paths: paths, // => data hasil loopingnya
-    fallback: "blocking"
+    fallback: true
     // => fallback ada 3 nilai: false, true, blocking
   }
 };
