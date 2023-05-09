@@ -32,7 +32,7 @@ export default Product;
 // # getStaticProps digunakan untuk membuat SSG. 
 // # Dengan kata lain next js akan membuat static html dan static data dalam format json pada saat build time.
 // # meskipun kita berkomunikasi dengan API.
-// # Saat kita build ke production, kemudian kita ubah data API-nya data yang diproduction tidak akan berubah (tidak berkomunikasi dengan API).
+// # Saat kita build ke production, kemudian kita ubah data API-nya data yang diproduction tidak akan berubah (tidak berkomunikasi langsung dengan API).
 export const getStaticProps = async () => {
   const res = await axios('http://localhost:3004/products');
   const data = await res.data;
