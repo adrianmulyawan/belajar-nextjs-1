@@ -84,5 +84,32 @@
       "name": "Belalang", 
       "type": "Serangga"
     }
+  ],
+  "guns": [
+    { 
+      "id": 1, 
+      "name": "Sniper", 
+      "type": "Sniper"
+    },
+    { 
+      "id": 2, 
+      "name": "M41A", 
+      "type": "Assault Riffle"
+    },
+    { 
+      "id": 3, 
+      "name": "AK-47", 
+      "type": "Assault Riffle"
+    },
+    { 
+      "id": 4, 
+      "name": "P90", 
+      "type": "Sub machine Gunawan"
+    },
+    { 
+      "id": 5, 
+      "name": "UMP 45", 
+      "type": "Sub machine Gunawan"
+    }
   ]
 }
