@@ -62,5 +62,27 @@
       "email": "bgunawan@binar.com",
       "class": "Frontend Developer"
     }
+  ],
+  "animals": [
+    { 
+      "id": 1, 
+      "name": "Sapi", 
+      "type": "Mamalia"
+    },
+    { 
+      "id": 2, 
+      "name": "Kucing", 
+      "type": "Mamalia"
+    },
+    { 
+      "id": 3, 
+      "name": "Buaya", 
+      "type": "Reptile"
+    },
+    { 
+      "id": 4, 
+      "name": "Belalang", 
+      "type": "Serangga"
+    }
   ]
 }
