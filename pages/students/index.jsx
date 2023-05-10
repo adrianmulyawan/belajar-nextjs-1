@@ -2,7 +2,7 @@ import axios from "axios";
 import Link from "next/link";
 
 const Student = ({ students }) => {
-  console.info(students);
+  // console.info(students);
   return (
     <>
       <h1>Student Page</h1>
