@@ -2,32 +2,32 @@
   "products": [
     { 
       "id": 1, 
-      "nameProduct": "Apple iPhone 14 Pro 512 GB", 
-      "priceProduct": 24000000,
+      "nameProduct": "Apple iPhone 14 Pro Max 512 GB", 
+      "priceProduct": 28000000,
       "categoryProduct": "Smartphone"
     },
      { 
       "id": 2, 
-      "nameProduct": "Samsung Galaxy S23 Ultra", 
+      "nameProduct": "Samsung Galaxy S23 Ultra 512 GB", 
       "priceProduct": 23000000,
       "categoryProduct": "Smartphone"
     },
      { 
       "id": 3, 
-      "nameProduct": "Google Pixel 7 Pro", 
-      "priceProduct": 17000000,
+      "nameProduct": "Google Pixel 7 Pro 256 GB", 
+      "priceProduct": 19000000,
       "categoryProduct": "Smartphone"
     },
      { 
       "id": 4, 
-      "nameProduct": "Sony Xperia 1 Mark IV", 
-      "priceProduct": 19500000,
+      "nameProduct": "Sony Xperia 1 Mark IV PRO", 
+      "priceProduct": 20500000,
       "categoryProduct": "Smartphone"
     },
      { 
       "id": 5, 
-      "nameProduct": "Xiaomi 13 Ultra", 
-      "priceProduct": 18000000,
+      "nameProduct": "Xiaomi 13 Ultra Leica", 
+      "priceProduct": 20000000,
       "categoryProduct": "Smartphone"
     }
   ]
