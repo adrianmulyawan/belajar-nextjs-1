@@ -6,29 +6,61 @@
       "priceProduct": 28000000,
       "categoryProduct": "Smartphone"
     },
-     { 
+    { 
       "id": 2, 
       "nameProduct": "Samsung Galaxy S23 Ultra 512 GB", 
       "priceProduct": 23000000,
       "categoryProduct": "Smartphone"
     },
-     { 
+    { 
       "id": 3, 
       "nameProduct": "Google Pixel 7 Pro 256 GB", 
       "priceProduct": 19000000,
       "categoryProduct": "Smartphone"
     },
-     { 
+    { 
       "id": 4, 
       "nameProduct": "Sony Xperia 1 Mark IV PRO", 
       "priceProduct": 20500000,
       "categoryProduct": "Smartphone"
     },
-     { 
+    { 
       "id": 5, 
       "nameProduct": "Xiaomi 13 Ultra Leica", 
       "priceProduct": 20000000,
       "categoryProduct": "Smartphone"
+    }
+  ],
+  "students": [
+    { 
+      "id": 1, 
+      "name": "Adrian Mulyawan", 
+      "email": "adrianmulyawan@binar.com",
+      "class": "Fullstack Web Developer"
+    },
+    { 
+      "id": 2, 
+      "name": "Nerita Widyalaras", 
+      "email": "neritawdya@binar.com",
+      "class": "Fullstack Web Developer"
+    },
+    { 
+      "id": 3, 
+      "name": "Putri Indah Sari", 
+      "email": "putrisari@binar.com",
+      "class": "Digital Markering"
+    },
+    { 
+      "id": 4, 
+      "name": "Mandalika Ayusti", 
+      "email": "mndaysti@binar.com",
+      "class": "Data Science"
+    },
+    { 
+      "id": 5, 
+      "name": "Budi Gunawan", 
+      "email": "bgunawan@binar.com",
+      "class": "Frontend Developer"
     }
   ]
 }
