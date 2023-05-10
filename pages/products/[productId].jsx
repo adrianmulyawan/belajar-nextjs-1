@@ -21,6 +21,7 @@ const ProductDetail = ({ product }) => {
 
 export default ProductDetail;
 
+// ~ getStaticPaths
 // > Untuk menghandle dynamic parameter bila menggunakan SSG.
 // > Oleh sebab itu kita harus menggunakan getStaticPaths().
 // > path akan di generate secara static.
@@ -55,6 +56,7 @@ export const getStaticPaths = async () => {
   }
 };
 
+// ~ getStaticProps 
 // > Untuk mendapatkan parameter didalam getStaticProps() kita tidak bisa menggunakan "useRouter" dari component kita.
 // > Untuk itu kita bisa mengirimkan argument '{ params }' didalamnya.
 // > Untuk mengirim parameternya kita dapat kirimkan
@@ -77,6 +79,20 @@ export const getStaticProps = async ({ params }) => {
   return {
     props: {
       product: data
-    }
-  }
+    },
+    revalidate: 2,
+  };
 };
+
+// ~ Incremental Static Regeneration
+// > Lalu bagaimana bila kita ingin static html kita tidak sepenuhnya static?
+// > Maksudnya masih sering terjadi perubahan data, contohnya didalam API kita terjadi perubahan data, maka API kita juga ikut berubah datanya.
+// > Ada beberapara cara untuk melakukannya, salah satunya yaitu melakukan build ulang project kita. Namun itu bukan best practice.
+// > Apa itu Incremental Static Regeneration
+// => Kita dapat menggunakan metode yang bernama 'Incremental Static Regeneration' (ISR). 
+// => ISR dapat mempermudah kita membuat atau memperbaharui halaman statis setelah website di build. 
+// => ISR memungkin kita menggunakan kita membuat update halaman statis website, tanpa perlu melakukan build ulang.
+// > Bagaimana cara menggunakan ISR (Incremental Static Regeneration)
+// => Kita dapat memberikan properti kedua, didalam return 'getStaticProps()' yang bernama 'revalidate' dengan value berapa detik.
+// => Revalidate digunakan untuk nextjs melakukan build ulang halaman
+// # saat permintaan masuk / setiap beberapa detik yang kita atur revalidate.
